@@ -12,10 +12,10 @@ The project uses a Random Forest Regressor model and provides an interactive das
 ---
 ## Table of Contents
 - <a href="#Project Overview">Project Overview</a>
-- <a href="#Project Structure">Project Structure</a>
+- <a href="#Features">Features</a>
 - <a href="#Technologies Used">Technologies Used</a>
 - <a href="#Machine Learning Model">Machine Learning Model</a>
-- <a href="#Features">Features</a>
+- <a href="#Project Structure">Project Structure</a>
 - <a href="#WorkFlow">WorkFlow</a>
 - <a href="#How to Run">How to Run</a>
 - <a href="#Future Improvements">Future Improvements</a>
@@ -31,36 +31,6 @@ This project aims to estimate real estate prices based on user inputs and provid
 - Future price predictions
 -  Auto-generated floor plans
 - Location & amenities analysis
-
---- 
-<h2><a class="anchor" id="Project Structure"></a>Project Structure</h2>
-
-📁 House-Price-Predictor
-│── train.py              
-│── model.pkl             
-│── app.py                
-│── README.md 
-
----
-<h2><a class="anchor" id="Technologies Used"></a>Technologies Used</h2>
-
-- Python
-- Pandas & NumPy
-- Scikit-learn (Random Forest Regressor)
-- Streamlit (Web App Framework)
-- Plotly (Data Visualization)
-- Pickle (Model Serialization)
-
----
-<h2><a class="anchor" id="Machine Learning Model"></a>Machine Learning Model</h2>
-
-- Algorithm: Random Forest Regressor
-- Features Used:
-  - Area (sq ft)
-  - Number of Bathrooms
-  - Number of Balconies
-- Target:
-  -  House Price (in Lakhs)
 
 ---
 <h2><a class="anchor" id="Features"></a>Features</h2>
@@ -93,6 +63,36 @@ This project aims to estimate real estate prices based on user inputs and provid
     - Metro
     - Malls
     - Parks
+  
+---
+<h2><a class="anchor" id="Technologies Used"></a>Technologies Used</h2>
+
+- Python
+- Pandas & NumPy
+- Scikit-learn (Random Forest Regressor)
+- Streamlit (Web App Framework)
+- Plotly (Data Visualization)
+- Pickle (Model Serialization)
+
+---
+<h2><a class="anchor" id="Machine Learning Model"></a>Machine Learning Model</h2>
+
+- Algorithm: Random Forest Regressor
+- Features Used:
+  - Area (sq ft)
+  - Number of Bathrooms
+  - Number of Balconies
+- Target:
+  -  House Price (in Lakhs)  
+
+--- 
+<h2><a class="anchor" id="Project Structure"></a>Project Structure</h2>
+
+📁 House-Price-Predictor
+│── train.py              
+│── model.pkl             
+│── app.py                
+│── README.md 
 
 --- 
 <h2><a class="anchor" id="WorkFlow"></a>WorkFlow</h2>
