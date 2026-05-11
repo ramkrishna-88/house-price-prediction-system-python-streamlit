@@ -532,7 +532,7 @@ if st.session_state.prediction:
         areas = list(range(500, 5001, 250))
         prices = []
         for a in areas:
-            f = np.array([[a, inp['bath'], inp['balcony']]])
+            f = np.array([[a, inp['bedrooms'], inp['bath'], inp['balcony']]])
             p = model.predict(f)
             prices.append(round(abs(p[0]), 2))
 
